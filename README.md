@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/badge/For-Developers-FFC107?style=flat-square" />
 </p>
 
-> <span style="color:#9E9E9E;"><i>Seamless control across devices — your desktop, reimagined.</i></span>
+<i>Seamless control across devices — your desktop, reimagined.</i>
 
 </div>
 
@@ -26,76 +26,77 @@
 
 ## 🚀 MobileDeck v1.0.0 — Initial Launch
 
-**MobileDeck v1.0.0** marks the **first public release** of the application, introducing a complete desktop experience with seamless mobile connectivity.
+**MobileDeck v1.0.0** is the **first public release**, focused on providing a smooth and practical way to control and extend your desktop experience using your mobile device.
 
 This repository contains **release builds only**.  
-<span style="color:#E53935;"><b>The source code is intentionally kept private.</b></span>
+**The source code is intentionally kept private.**
 
 ---
 
 ## 📌 What is MobileDeck?
 
-**MobileDeck** is a desktop companion app designed for people who need **fast access, control, and productivity** directly from their desktop.
+**MobileDeck** is a desktop companion application that allows you to interact with your PC using your phone.
 
-It is especially useful for:
-- 🎮 **Gamers**
-- 🧪 **PC testers**
-- 👨‍💻 **Developers**
+It is designed for:
+- 🎮 **Gamers** who want fast access without alt-tabbing
+- 🧪 **PC testers** who need quick controls and monitoring
+- 👨‍💻 **Developers** who prefer efficiency and customization
 
-Many similar tools are **premium or subscription-based**.  
-**MobileDeck is built as a practical, lightweight alternative**, focused on usability and performance.
+Unlike many alternatives that require subscriptions, **MobileDeck focuses on simplicity, performance, and usability**.
 
 ---
 
 ## 🛠 First-Time Setup (How It Works)
 
 1. **Launch the Desktop App**
-   - Starts like a normal desktop application
-   - On first run, you may be asked to allow a **background service**
-   - Allow it for proper functionality
+   - Start MobileDeck on your PC
+   - Allow background service access when prompted
 
-2. **Click “Connect” on Desktop**
-   - A QR code is generated on your PC screen
+2. **Connect from Desktop**
+   - Click the **Connect** button
+   - A QR code appears on your screen
 
-3. **Install the Mobile App**
+3. **Install & Open the Mobile App**
    - Open the MobileDeck mobile app
    - Scan the QR code shown on the desktop
 
-4. **Approve the Connection**
-   - After scanning, the desktop will ask for **device approval**
-   - Approve the request to complete pairing
+4. **Approve the Device**
+   - The desktop asks for device approval
+   - Approve to complete pairing
 
-5. **Connected — Done 🎉**
-   - Your mobile device is now connected
-   - No manual configuration required
+5. **Connected 🎉**
+   - Your mobile device is now linked to your desktop
+   - No manual configuration needed
 
 ---
 
 ## ✨ Features in v1.0.0
 
-- 🧩 **Completed Dock System**
-  - Launch and manage desktop apps easily
+- 🧩 **Customizable App Dock**
+  - Launch desktop applications quickly
+  - Edit and arrange dock items based on your workflow
 
 - 📱 **Desktop ↔ Mobile Connectivity**
-  - Secure QR-based pairing with manual approval
+  - Secure QR-based pairing
+  - Manual device approval for safety
 
 - ⚡ **Background Service Support**
-  - Ensures smooth and reliable communication
+  - Ensures reliable and smooth communication
 
-- 🎨 **Clean & Modern UI**
-  - Optimized for daily desktop use
+- 🎨 **Clean & Immersive UI**
+  - Optimized for landscape usage
+  - Distraction-free experience
 
 ---
 
 ## 📱 Mobile App Status (Important)
 
-The **mobile app UI includes**:
-- 📊 **Stats screen**
-- ⚙️ **Quick Settings screen**
+The mobile app currently includes:
+- 📊 **Stats Screen**
+- ⚙️ **Quick Settings Screen**
 
-⚠️ **Note:**  
-These screens are **present but not functional in v1.0.0**.  
-They are under active development and will be enabled in future updates.
+⚠️ These screens are **visible but not functional in v1.0.0**.  
+They are actively being developed and will be enabled in upcoming updates.
 
 ---
 
@@ -103,23 +104,39 @@ They are under active development and will be enabled in future updates.
 
 ### 🖥 Desktop App
 
-| | |
-|--|--|
-| ![](screenshots/pc-1.jpg) | ![](screenshots/pc-2.jpg) |
-| ![](screenshots/pc-3.jpg) | ![](screenshots/pc-4.jpg) |
-| ![](screenshots/pc-5.jpg) | ![](screenshots/pc-6.jpg) |
+<table>
+  <tr>
+    <td><img src="screenshots/pc1.png" width="480" /></td>
+    <td><img src="screenshots/pc2.png" width="480" /></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/pc3.png" width="480" /></td>
+    <td><img src="screenshots/pc4.png" width="480" /></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/pc5.png" width="480" /></td>
+    <td><img src="screenshots/pc6.png" width="480" /></td>
+  </tr>
+</table>
 
 ### 📱 Mobile App
 
-| | |
-|--|--|
-| ![](screenshots/mb-1.jpg) | ![](screenshots/mb-2.jpg) |
+<table cellspacing="24">
+  <tr>
+    <td><img src="screenshots/mb1.jpg" width="480" /></td>
+    <td><img src="screenshots/mb2.jpg" width="480" /></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/mb3.jpg" width="480" /></td>
+    <td><img src="screenshots/mb4.jpg" width="480" /></td>
+  </tr>
+</table>
 
 ---
 
 ## 🔜 Coming Soon
 
-- 📊 **System Stats**
+- 📊 **System Statistics**
   - CPU usage
   - Memory usage
   - Performance insights
@@ -137,13 +154,13 @@ They are under active development and will be enabled in future updates.
 - Type: **Initial Public Release**
 - Platform: **Windows (x64)**
 
-Minor bugs may exist. Feedback is welcome and appreciated.
+Minor issues may exist. Feedback is welcome and appreciated.
 
 ---
 
 <div align="center">
 
-<b>Welcome to <span style="color:#4CAF50;">Mobile</span><span style="color:#2196F3;">Deck</span> 🚀</b>  
-<span style="color:#9E9E9E;">More features and updates coming soon.</span>
+<b>Welcome to <span style="color:#4CAF50;">Mobile</span><span style="color:#2196F3;">Deck</span> 🚀</b><br/>
+More features and improvements coming soon.
 
 </div>
