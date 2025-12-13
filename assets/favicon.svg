@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512"><svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background: Very Soft Cream -->
+    <rect width="512" height="512" rx="120" fill="#FFF9F2"></rect>
+
+    <g transform="translate(106, 90)">
+        <!-- Back Card (Mint Green) - Tilted Left -->
+        <!-- Added Stroke for border -->
+        <rect x="40" y="40" width="180" height="260" rx="30" transform="rotate(-12 130 170)" fill="#B5EAD7" stroke="#2D2D2D" stroke-width="12"></rect>
+
+        <!-- Middle Card (Soft Lavender) - Tilted Right -->
+        <!-- Added Stroke for border -->
+        <rect x="100" y="40" width="180" height="260" rx="30" transform="rotate(12 190 170)" fill="#C7CEEA" stroke="#2D2D2D" stroke-width="12"></rect>
+
+        <!-- Front Main Mobile (Peachy Pink) - Upright -->
+        <!-- Added Stroke for border -->
+        <rect x="50" y="50" width="200" height="280" rx="35" fill="#FFB7B2" stroke="#2D2D2D" stroke-width="12"></rect>
+
+        <!-- Screen Detail (Inner Border) -->
+        <!-- This creates the "Bezel" look -->
+        <rect x="70" y="70" width="160" height="240" rx="20" fill="#FFF5F5" fill-opacity="0.4"></rect>
+
+        <!-- Home Indicator -->
+        <rect x="125" y="290" width="50" height="8" rx="4" fill="#2D2D2D"></rect>
+
+        <!-- Top Speaker/Notch Detail -->
+        <rect x="135" y="62" width="30" height="6" rx="3" fill="#2D2D2D" fill-opacity="0.2"></rect>
+    </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: invert(100%); } }
+</style></svg>
