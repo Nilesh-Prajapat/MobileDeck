@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Version-1.1.0.0--alpha-brightgreen" />
   <img src="https://img.shields.io/badge/Platform-Windows%20x64-blue" />
   <img src="https://img.shields.io/badge/Release-Alpha-orange" />
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/nilesh-prajapat/MobileDeck&title=Visitors&edge_flat=true"/>
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/NileshPrajapat/MobileDeck&title=Visitors&edge_flat=true"/>
 </p>
 
 <p>
