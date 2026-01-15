@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Version-1.1.0.0--alpha-brightgreen" />
   <img src="https://img.shields.io/badge/Platform-Windows%20x64-blue" />
   <img src="https://img.shields.io/badge/Release-Alpha-orange" />
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/NileshPrajapat/MobileDeck&title=Visitors&edge_flat=true"/>
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FNilesh-Prajapat%2FMobileDeck&label=Visitors&countColor=%232ccce4&style=flat"/>
 </p>
 
 <p>
@@ -177,3 +177,4 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
