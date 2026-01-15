@@ -7,9 +7,10 @@
 </h1>
 
 <p>
-  <img src="https://img.shields.io/badge/Version-1.0.0-brightgreen" />
+  <img src="https://img.shields.io/badge/Version-1.1.0.0--alpha-brightgreen" />
   <img src="https://img.shields.io/badge/Platform-Windows%20x64-blue" />
-  <img src="https://img.shields.io/badge/Release-Initial%20Launch-orange" />
+  <img src="https://img.shields.io/badge/Release-Alpha-orange" />
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/nilesh-prajapat/MobileDeck&title=Visitors&edge_flat=true"/>
 </p>
 
 <p>
@@ -24,79 +25,91 @@
 
 ---
 
-## 🚀 MobileDeck v1.0.0 — Initial Launch
+## 🚀 MobileDeck v1.1.0.0-alpha — Stats & Stability Upgrade
 
-**MobileDeck v1.0.0** is the **first public release**, focused on providing a smooth and practical way to control and extend your desktop experience using your mobile device.
+**MobileDeck v1.1.0.0-alpha** introduces the **first functional hardware stats panel**, providing real-time CPU and GPU telemetry directly on your mobile device.
+
+This release focuses on:
+- Hardware monitoring
+- Stability improvements
+- Reliable communication
 
 This repository contains **release builds only**.  
-**The source code is intentionally kept private.**
+Source code remains private.
 
 ---
 
 ## 📌 What is MobileDeck?
 
-**MobileDeck** is a desktop companion application that allows you to interact with your PC using your phone.
+**MobileDeck** is a desktop companion application that allows you to monitor and control your PC using your phone.
 
 It is designed for:
-- 🎮 **Gamers** who want fast access without alt-tabbing
-- 🧪 **PC testers** who need quick controls and monitoring
-- 👨‍💻 **Developers** who prefer efficiency and customization
+- 🎮 **Gamers** who need quick access without alt-tabbing
+- 🧪 **PC testers** who require hardware telemetry
+- 👨‍💻 **Developers** who want efficient remote controls
 
-Unlike many alternatives that require subscriptions, **MobileDeck focuses on simplicity, performance, and usability**.
+MobileDeck prioritizes **performance and privacy** without subscriptions or bloat.
 
 ---
 
 ## 🛠 First-Time Setup (How It Works)
 
 1. **Launch the Desktop App**
-   - Start MobileDeck on your PC
-   - Allow background service access when prompted
-
-2. **Connect from Desktop**
-   - Click the **Connect** button
-   - A QR code appears on your screen
-
-3. **Install & Open the Mobile App**
-   - Open the MobileDeck mobile app
-   - Scan the QR code shown on the desktop
-
-4. **Approve the Device**
-   - The desktop asks for device approval
-   - Approve to complete pairing
-
+2. Click **Connect** to show the QR code
+3. Open the Mobile App and **scan the QR**
+4. **Approve the device** on desktop
 5. **Connected 🎉**
-   - Your mobile device is now linked to your desktop
-   - No manual configuration needed
+
+No manual network configuration required.
 
 ---
 
-## ✨ Features in v1.0.0
+## ✨ New in v1.1.0.0-alpha
+
+### 📊 **System Hardware Statistics**
+Stats are now **enabled and functional**, displaying:
+
+#### **CPU Metrics**
+- Temperature
+- Load %
+- Power draw
+- RAM usage
+
+#### **GPU Metrics**
+- Temperature
+- Load %
+- VRAM usage
+- Power draw
+
+Data updates in **real-time** for performance monitoring.
+
+### ⚙️ **Stability Improvements**
+- Fixed **frequent disconnects**
+- Improved mobile ↔ desktop socket reliability
+- Reduced UI freezes during intensive polling
+- Cleaner service lifecycle handling
+
+---
+
+## 📱 Mobile App Status
+
+Available screens:
+
+- 📊 **Stats Screen** → **Fully functional**
+- ⚙️ **Quick Settings** → **Not yet linked**
+
+More functionality will be enabled in upcoming builds.
+
+---
+
+## ✨ Features from Previous Release (v1.0.0)
 
 - 🧩 **Customizable App Dock**
-  - Launch desktop applications quickly
-  - Edit and arrange dock items based on your workflow
-
-- 📱 **Desktop ↔ Mobile Connectivity**
-  - Secure QR-based pairing
-  - Manual device approval for safety
-
-- ⚡ **Background Service Support**
-  - Ensures reliable and smooth communication
-
+- 📱 **Secure QR Pairing**
+- ⚡ **Background Service**
 - 🎨 **Clean & Immersive UI**
-  - Optimized for landscape usage
-  - Distraction-free experience
 
----
-
-## 📱 Mobile App Status (Important)
-
-The mobile app currently includes:
-- 📊 **Stats Screen**
-- ⚙️ **Quick Settings Screen**
-
-⚠️ These screens are **visible but not functional in v1.0.0**.  
-They are actively being developed and will be enabled in upcoming updates.
+These remain available in **v1.1.0.0-alpha**.
 
 ---
 
@@ -136,31 +149,31 @@ They are actively being developed and will be enabled in upcoming updates.
 
 ## 🔜 Coming Soon
 
-- 📊 **System Statistics**
-  - CPU usage
-  - Memory usage
-  - Performance insights
-
 - ⚙️ **Quick Settings**
-  - Volume control
-  - Brightness control
-  - System shortcuts
+  - Volume
+  - Brightness
+  - System toggles
+
+- 🎯 **Custom Actions**
+  - Media controls
+  - Shortcuts
+  - Macros
 
 ---
 
 ## 🧪 Release Notes
 
-- Version: **v1.0.0**
-- Type: **Initial Public Release**
+- Version: **v1.1.0.0-alpha**
+- Stage: **Alpha Test Build**
 - Platform: **Windows (x64)**
 
-Minor issues may exist. Feedback is welcome and appreciated.
+Minor issues may exist depending on hardware support.
 
 ---
 
 <div align="center">
 
 <b>Welcome to <span style="color:#4CAF50;">Mobile</span><span style="color:#2196F3;">Deck</span> 🚀</b><br/>
-More features and improvements coming soon.
+More features and improvements are on the way.
 
 </div>
