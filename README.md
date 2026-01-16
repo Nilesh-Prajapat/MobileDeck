@@ -58,6 +58,22 @@ MobileDeck prioritizes **performance and privacy** without subscriptions or bloa
 > - If you're using **mobile hotspot**, try toggling the hotspot off/on and reconnecting.  
 > - If the Desktop App shows "Connected" but mobile doesn't respond, **restart the `MobileDeck API` process** from Task Manager.  
 > - If still no connection, **temporarily disable Windows Firewall (Private + Public)** and test again. *(Re-enable after pairing.)*
+> - ## 🔐 Firewall Setup
+>   
+> - MobileDeck requires **TCP ports 8000–8010** open for communication.
+>   
+> - ### Steps (Windows)
+>   
+> - 1. Open **Control Panel → System and Security → Windows Defender Firewall**
+> - 2. Click **Advanced settings**
+> - 3. Go to **Inbound Rules → New Rule**
+> - 4. Select **Port**
+> - 5. Choose **TCP**
+> - 6. Enter:  8000-8010
+> - 7. Click **Allow the connection**
+> - 8. Select network types as needed
+> - 9. Name the rule: `MobileDeck TCP`
+> - 10. Repeat the same steps for **Outbound Rules**
 
 
 ## 🛠 First-Time Setup (How It Works)
@@ -254,6 +270,7 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
 
 
 
