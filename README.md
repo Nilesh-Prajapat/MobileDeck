@@ -51,6 +51,10 @@ It is designed for:
 MobileDeck prioritizes **performance and privacy** without subscriptions or bloat.
 
 ---
+> **Initialization Delay:**  
+> After connecting, both the **App Dock data** and **hardware sensor stats** may take **30–60 seconds** to fully appear.  
+> This happens during service startup and sensor initialization.
+
 
 ## 🛠 First-Time Setup (How It Works)
 
@@ -246,5 +250,6 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
 
 
