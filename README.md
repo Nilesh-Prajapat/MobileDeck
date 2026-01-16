@@ -74,7 +74,8 @@ MobileDeck prioritizes **performance and privacy** without subscriptions or bloa
 > - 8. Select network types as needed
 > - 9. Name the rule: `MobileDeck TCP`
 > - 10. Repeat the same steps for **Outbound Rules**
-
+> - 11. Restart MobileDeck.
+> - 12. It will take 40 sec to fetch data.
 
 ## 🛠 First-Time Setup (How It Works)
 
@@ -270,6 +271,7 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
 
 
 
