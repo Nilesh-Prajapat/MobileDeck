@@ -64,6 +64,75 @@ No manual network configuration required.
 
 ---
 
+## 🧩 Launch Command Format (Desktop App)
+
+The **Launch Command** field allows MobileDeck to trigger apps, websites, or URI handlers directly from your mobile device.
+
+MobileDeck supports **three input types**:
+
+---
+
+### **1️⃣ Executable Path (EXE)**  
+Runs local Windows applications.
+
+**Format:**
+C:\Path\To\App.exe
+
+
+**Example:**
+C:\Program Files\Google\Chrome\Application\chrome.exe
+
+
+---
+
+### **2️⃣ Website URL**  
+Opens a website using your default browser.
+
+**Format:**
+https://website.com
+www.website.com
+
+
+**Example:**
+www.google.com
+https://google.com
+
+---
+
+### **3️⃣ App URI Scheme**  
+Opens applications that register URI protocols (Steam, Discord, Spotify, Mail, etc.)
+
+**Format:**
+scheme://
+
+
+**Examples:**
+discord://
+steam://open/library
+spotify://
+mail://
+
+
+> You can view installed URI handlers in:
+> **Windows Settings → Apps → Default Apps → Choose defaults by link type**
+
+---
+
+### 📌 Quick Reference Table
+
+| Type     | Example                                          | Description            |
+|----------|--------------------------------------------------|------------------------|
+| EXE      | `C:\Program Files\VSCode\Code.exe`               | Launch VS Code         |
+| Website  | `wwwyoutube.com`                                 | Open YouTube           |
+| URI      | `discord://`                                     | Open Discord           |
+
+---
+
+### 📝 Notes
+
+- Paths must exist on the PC
+- URI schemes depend on installed apps
+
 ## ✨ New in v1.1.0.0-alpha
 
 ### 📊 **System Hardware Statistics**
@@ -177,4 +246,5 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
 
