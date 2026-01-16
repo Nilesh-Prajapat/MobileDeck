@@ -50,10 +50,14 @@ It is designed for:
 
 MobileDeck prioritizes **performance and privacy** without subscriptions or bloat.
 
----
 > **Initialization Delay:**  
 > After connecting, both the **App Dock data** and **hardware sensor stats** may take **30–60 seconds** to fully appear.  
 > This happens during service startup and sensor initialization.
+>
+> **Troubleshooting (if mobile fails to connect):**  
+> - If you're using **mobile hotspot**, try toggling the hotspot off/on and reconnecting.  
+> - If the Desktop App shows "Connected" but mobile doesn't respond, **restart the `MobileDeck API` process** from Task Manager.  
+> - If still no connection, **temporarily disable Windows Firewall (Private + Public)** and test again. *(Re-enable after pairing.)*
 
 
 ## 🛠 First-Time Setup (How It Works)
@@ -127,7 +131,7 @@ mail://
 | Type     | Example                                          | Description            |
 |----------|--------------------------------------------------|------------------------|
 | EXE      | `C:\Program Files\VSCode\Code.exe`               | Launch VS Code         |
-| Website  | `wwwyoutube.com`                                 | Open YouTube           |
+| Website  | `www.youtube.com`                                 | Open YouTube           |
 | URI      | `discord://`                                     | Open Discord           |
 
 ---
@@ -250,6 +254,7 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
 
 
 
