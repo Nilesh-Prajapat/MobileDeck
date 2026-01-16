@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Version-1.1.0.0--alpha-brightgreen" />
   <img src="https://img.shields.io/badge/Platform-Windows%20x64-blue" />
   <img src="https://img.shields.io/badge/Release-Alpha-orange" />
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/NileshPrajapat/MobileDeck&title=Visitors&edge_flat=true"/>
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FNilesh-Prajapat%2FMobileDeck&label=Visitors&countColor=%232ccce4&style=flat"/>
 </p>
 
 <p>
@@ -50,7 +50,15 @@ It is designed for:
 
 MobileDeck prioritizes **performance and privacy** without subscriptions or bloat.
 
----
+> **Initialization Delay:**  
+> After connecting, both the **App Dock data** and **hardware sensor stats** may take **30–60 seconds** to fully appear.  
+> This happens during service startup and sensor initialization.
+>
+> **Troubleshooting (if mobile fails to connect):**  
+> - If you're using **mobile hotspot**, try toggling the hotspot off/on and reconnecting.  
+> - If the Desktop App shows "Connected" but mobile doesn't respond, **restart the `MobileDeck API` process** from Task Manager.  
+> - If still no connection, **temporarily disable Windows Firewall (Private + Public)** and test again. *(Re-enable after pairing.)*
+
 
 ## 🛠 First-Time Setup (How It Works)
 
@@ -63,6 +71,75 @@ MobileDeck prioritizes **performance and privacy** without subscriptions or bloa
 No manual network configuration required.
 
 ---
+
+## 🧩 Launch Command Format (Desktop App)
+
+The **Launch Command** field allows MobileDeck to trigger apps, websites, or URI handlers directly from your mobile device.
+
+MobileDeck supports **three input types**:
+
+---
+
+### **1️⃣ Executable Path (EXE)**  
+Runs local Windows applications.
+
+**Format:**
+C:\Path\To\App.exe
+
+
+**Example:**
+C:\Program Files\Google\Chrome\Application\chrome.exe
+
+
+---
+
+### **2️⃣ Website URL**  
+Opens a website using your default browser.
+
+**Format:**
+https://website.com
+www.website.com
+
+
+**Example:**
+www.google.com
+https://google.com
+
+---
+
+### **3️⃣ App URI Scheme**  
+Opens applications that register URI protocols (Steam, Discord, Spotify, Mail, etc.)
+
+**Format:**
+scheme://
+
+
+**Examples:**
+discord://
+steam://open/library
+spotify://
+mail://
+
+
+> You can view installed URI handlers in:
+> **Windows Settings → Apps → Default Apps → Choose defaults by link type**
+
+---
+
+### 📌 Quick Reference Table
+
+| Type     | Example                                          | Description            |
+|----------|--------------------------------------------------|------------------------|
+| EXE      | `C:\Program Files\VSCode\Code.exe`               | Launch VS Code         |
+| Website  | `www.youtube.com`                                 | Open YouTube           |
+| URI      | `discord://`                                     | Open Discord           |
+
+---
+
+### 📝 Notes
+
+- Paths must exist on the PC
+- URI schemes depend on installed apps
 
 ## ✨ New in v1.1.0.0-alpha
 
@@ -177,3 +254,7 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
+
+
+
