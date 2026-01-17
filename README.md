@@ -85,8 +85,6 @@ MobileDeck prioritizes **performance and privacy** without subscriptions or bloa
 4. **Approve the device** on desktop
 5. **Connected 🎉**
 
-No manual network configuration required.
-
 ---
 
 ## 🧩 Launch Command Format (Desktop App)
@@ -271,6 +269,7 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
 
 
 
