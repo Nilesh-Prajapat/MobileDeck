@@ -56,7 +56,6 @@ MobileDeck prioritizes **performance and privacy** without subscriptions or bloa
 >
 > **Troubleshooting (if mobile fails to connect):**  
 > - If you're using **mobile hotspot**, try toggling the hotspot off/on and reconnecting.  
-> - If the Desktop App shows "Connected" but mobile doesn't respond, **restart the `MobileDeck API` process** from Task Manager.  
 > - If still no connection, **temporarily disable Windows Firewall (Private + Public)** and test again. *(Re-enable after pairing.)*
 > - ## 🔐 Firewall Setup
 >   
@@ -269,6 +268,7 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
 
 
 
