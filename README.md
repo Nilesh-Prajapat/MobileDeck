@@ -50,41 +50,41 @@ It is designed for:
 
 MobileDeck prioritizes **performance and privacy** without subscriptions or bloat.
 
+> **First-Time Setup (Required Configuration)**  
+>  
+> **1. If MobileDeck is already running, close it**  
+> • Close `MobileDeck`  
+>  
+> **2. Configure Windows Firewall (Required before first launch)**  
+> • Open **Control Panel → System and Security → Windows Defender Firewall**  
+> • Click **Advanced settings**  
+> • Go to **Inbound Rules → New Rule**  
+> • Select **Port**  
+> • Choose **TCP**  
+> • Enter: `8000-8010`  
+> • Click **Allow the connection**  
+> • Select network types as needed  
+> • Name: `MobileDeck TCP (Inbound)`  
+> • Repeat the same steps under **Outbound Rules**  
+> • Name: `MobileDeck TCP (Outbound)`  
+>  
+> **3. Launch MobileDeck Desktop App**  
+> **4. Click Connect** to display the QR code  
+> **5. Open the Mobile App and scan the QR code**  
+> **6. Approve the device on the Desktop App**  
+> **7. Connected 🎉**  
+>  
 > **Initialization Delay:**  
-> After connecting, both the **App Dock data** and **hardware sensor stats** may take **30–60 seconds** to fully appear.  
-> This happens during service startup and sensor initialization.
->
-> **Troubleshooting (if mobile fails to connect):**  
-> - If you're using **mobile hotspot**, try toggling the hotspot off/on and reconnecting.  
-> - If still no connection, **temporarily disable Windows Firewall (Private + Public)** and test again. *(Re-enable after pairing.)*
-> - ## 🔐 Firewall Setup
->   
-> - MobileDeck requires **TCP ports 8000–8010** open for communication.
->   
-> - ### Steps (Windows)
->   
-> - 1. Open **Control Panel → System and Security → Windows Defender Firewall**
-> - 2. Click **Advanced settings**
-> - 3. Go to **Inbound Rules → New Rule**
-> - 4. Select **Port**
-> - 5. Choose **TCP**
-> - 6. Enter:  8000-8010
-> - 7. Click **Allow the connection**
-> - 8. Select network types as needed
-> - 9. Name the rule: `MobileDeck TCP`
-> - 10. Repeat the same steps for **Outbound Rules**
-> - 11. Restart MobileDeck.
-> - 12. It will take 40 sec to fetch data.
-
-## 🛠 First-Time Setup (How It Works)
-
-1. **Launch the Desktop App**
-2. Click **Connect** to show the QR code
-3. Open the Mobile App and **scan the QR**
-4. **Approve the device** on desktop
-5. **Connected 🎉**
-
----
+> App Dock data + hardware stats may take **30–60 seconds** to fully appear.  
+>  
+> **Network Change Behavior:**  
+> If you change networks after pairing (e.g., **Hotspot ↔ WiFi**), telemetry may stop.  
+>  
+> **To fix:**  
+> • Open **Task Manager → Services**  
+> • Locate `MobileDeckAPI Service`  
+> • Right-click → **Restart**  
+> • Reconnect if needed
 
 ## 🧩 Launch Command Format (Desktop App)
 
@@ -268,6 +268,7 @@ Minor issues may exist depending on hardware support.
 More features and improvements are on the way.
 
 </div>
+
 
 
 
